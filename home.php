@@ -78,13 +78,13 @@ include 'components/wishlist_cart.php';
 
 
          <?php
-           $select_categories = $conn->prepare("SELECT * FROM `categories` "); 
+           $select_categories = $conn->prepare("SELECT * FROM `categories` LIMIT 3"); 
            $select_categories->execute();
            if($select_categories->rowCount() > 0){
             while($fetch_category = $select_categories->fetch(PDO::FETCH_ASSOC)){
          ?>
          <div class="collection-item">
-          <img src=<?php echo "uploaded_cat/".$fetch_category['file']; ?> alt=" Ring" />
+          <img src="uploaded_cat<?php echo "/".$fetch_category['file']; ?>" alt=" Ring" />
           <h3><?= $fetch_category['name']; ?></h3>
         </div>
  <?php
