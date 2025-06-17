@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+h2.text-center {
+    text-align: center; /* Centers text */
+    font-family: "Playfair Display", serif; /* Change to a stylish font */
+    font-size: 2.5rem; /* Adjust size */
+    font-weight: bold; /* Makes it stand out */
+    color: #090633; /* Gold color for luxury look */
+    text-transform: uppercase; /* Makes text uppercase */
+    letter-spacing: 2px; /* Adds spacing between letters */
+    margin-top: 20px; /* Adds some spacing from the top */
+}
+
+
+/* Product Section */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Product Cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures all cards are the same height */
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+/* Product Images */
+/* Product Images */
+.card img {
+    width: 100%;
+    height: 250px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures uniformity */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px; /* Adds space between the image and the card body */
+}
+
+/* Card Body Styling */
+.card-body {
+    flex-grow: 1; /* Allows uniform height adjustment */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card Title and Text */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #000000;
+    margin: 10px 0; /* Adjusts the margin above and below the title */
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.btn-primary {
+    padding: 10px 20px;
+    background: #007bff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Responsive Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.col-md-3 {
+    flex: 1 1 calc(25% - 20px); /* Ensures 4 cards per row */
+    max-width: calc(25% - 20px);
+}
+
+
+
+/* Footer Styling */
+footer {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Container */
+/* Footer Container */
+.footer-container {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 30px 0;
+    text-align: center; /* Center aligns content */
+}
+
+/* Social Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centers icons */
+    gap: 20px; /* Space between icons */
+    margin-bottom: 20px; /* Space below social icons */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Footer Links Section */
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center links */
+    gap: 20px; /* Space between links */
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #113f1f; /* Slightly darker background */
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}

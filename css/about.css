@@ -1,0 +1,179 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sec-title .title{
+position: relative;
+display: block;
+font-size: 18px;
+line-height: 24px;
+color: #ff2222;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+/* About section styles */
+
+.about-section .list-style-one {
+    list-style: disc inside;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn-style-one:hover{
+background-color: #001e57;
+color: #ffffff;
+}
+
+.about-section{
+position: relative;
+padding: 70px 0 70px;
+}
+
+.about-section .sec-title{
+margin-bottom: 45px;
+}
+
+.about-section .content-column .inner-column{
+position: relative;
+padding-left: 30px;
+}
+
+.about-section .text{
+margin-bottom: 40px;
+font-size: 16px;
+line-height: 26px;
+color: #665f5f;
+font-weight: 400;
+}
+
+.about-section .list-style-one{
+margin-bottom: 45px;
+}
+
+.about-section .btn-box .theme-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.about-section .image-column .inner-column{
+position: relative;
+padding-left: 120px;
+padding-bottom: 125px;
+}
+
+.about-section .image-column .inner-column:before{
+position: absolute;
+left: -75px;
+top: 65px;
+height: 520px;
+width: 520px;
+background-image:url(https://i.ibb.co/fxJ1jtC/about-circle-1.png);
+content: "";
+}
+
+.about-section .image-column .image-1{
+position: relative;
+}
+
+.about-section .image-column .image-2{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
+.image-2 img {
+    width: 250px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border-radius: 20px;
+  }
+
+  /* Styling for the image container */
+.image-1 {
+    width: 100%; /* Ensure the figure takes full width of its parent container */
+    max-width: 800px; /* Optional: Set a max-width to limit the image size */
+    margin: 0 auto; /* Center the figure */
+}
+
+/* Ensure all images have the same size */
+.image-1 img {
+    width: 100%; /* Make image fill the container */
+    height: 500px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    border-radius: 20px; /* Optional: Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for aesthetics */
+}
+
+
+
+/* Footer Styling */
+footer {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Container */
+/* Footer Container */
+.footer-container {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 30px 0;
+    text-align: center; /* Center aligns content */
+}
+
+/* Social Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centers icons */
+    gap: 20px; /* Space between icons */
+    margin-bottom: 20px; /* Space below social icons */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Footer Links Section */
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center links */
+    gap: 20px; /* Space between links */
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #113f1f; /* Slightly darker background */
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}

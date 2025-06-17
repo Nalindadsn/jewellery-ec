@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+/* Hero Section */
+.hero {  
+    color: white;
+    text-align: center;
+    padding: 80px 50px;
+    background-color: #000000;
+    color: #333;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 100%;  /* Adjust width as needed */
+    margin: 0 auto;  /* Centers the section */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-box img {
+    width: 500px;  /* Adjust width as needed */
+    height: auto;  /* Keeps aspect ratio */
+    max-width: 100%;  /* Ensures responsiveness */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.text-box-1 h1 {
+    font-size: 2.5em;
+    color: #f0f3f1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-box-1 p {
+    font-size: 1.2em;
+    color: #f0f3f1;
+    margin: 50px 0;
+    font-family:initial;
+}
+
+.text-box-1 {
+    max-width: 50%; /* Adjust width as needed (e.g., 60%, 70%) */
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Collections Section */
+.collections {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000000;
+}
+
+.collections h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.collection-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collection-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:monospace;
+   
+}
+
+.collection-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.collection-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* New Arrivals Section */
+
+.newarrivals {
+    text-align: center;
+    padding: 50px 20px;  /* Added more padding for spacing */
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+.container {
+    max-width: 70%;  /* Adjust width as needed */
+    margin: 0 auto;  /* Centers the section */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-box img {
+    width: 450px;  /* Adjust width as needed */
+    height: auto;  /* Keeps aspect ratio */
+    max-width: 100%;  /* Ensures responsiveness */
+    border-radius: 15px; /* Optional: Adds rounded corners */
+}
+
+.text-box h2 {
+    font-size: 2.5em;
+    color: #1a8835;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-box p {
+    font-size: 1.2em;
+    margin: 50px 0;
+    font-family:initial;
+}
+
+.text-box {
+    max-width: 30%; /* Adjust width as needed (e.g., 60%, 70%) */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Footer Styling */
+footer {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Container */
+/* Footer Container */
+.footer-container {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 30px 0;
+    text-align: center; /* Center aligns content */
+}
+
+/* Social Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centers icons */
+    gap: 20px; /* Space between icons */
+    margin-bottom: 20px; /* Space below social icons */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Footer Links Section */
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center links */
+    gap: 20px; /* Space between links */
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #113f1f; /* Slightly darker background */
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+

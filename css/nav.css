@@ -1,0 +1,43 @@
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0a7049;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.addtocart {
+    width: 120px; /* Adjust the logo size */
+    height: auto;
+}
+
+.addtocart {
+    width: 30px; /* Adjust the icon size */
+    height: 30px;
+}
+
